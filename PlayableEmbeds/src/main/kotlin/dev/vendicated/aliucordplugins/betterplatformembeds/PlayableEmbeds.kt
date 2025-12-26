@@ -178,7 +178,7 @@ class PlayableEmbeds : Plugin() {
         webviewMap[webView] = url
 
         webView.run {
-            val ytUrl = "https://www.youtube-nocookie.com/embed/$videoId?start=$timestamp"
+            val ytUrl = "https://piped.private.coffee/embed/$videoId?start=$timestamp"
             loadData(
                 """
                 <html>
